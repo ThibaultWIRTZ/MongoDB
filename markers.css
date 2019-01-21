@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    flex-direction: column;
+}
+
+li{
+    display:block;
+}
+
+.flex-row{
+    display: flex;     
+    flex-direction: row;
+}
+
+.flex-col{
+    display: flex;      
+    flex-direction: column;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.left-banner{
+    display: flex;
+    flex-direction: column; 
+    padding-right:1em;
+    margin-right:1em;
+    border-right:1px solid grey;
+    align-items: flex-end;    
+}
+
+.right-banner{
+    display: flex;
+    flex-direction: column; 
+    padding-left:1em;
+    margin-left:1em;
+    border-left:1px solid grey;
+    align-items: flex-start;   
+    width:250px; 
+    max-height: 500px;
+    overflow: auto;
+}
+
+.info-panel{
+    display: flex;
+    flex-direction: column;
+}
+
+.parking-velo{
+    filter:hue-rotate(90deg);
+}
+
+.parking{
+    filter:hue-rotate(75deg);
+}
+
+.map-container{
+    display: flex;
+    flex-direction: row;
+    padding:2em;
+    border-radius: 1em;
+    background: lightgrey;
+}
+
+.detail_btn{
+    cursor: pointer;
+}
+
+#connexion{
+    padding:1em;
+    margin:1em;
+    border-radius: 1em;
+    background: lightgrey;
+}
